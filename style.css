@@ -1,0 +1,218 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    color: #ffffff; /* texte clair pour contraster */
+    background: radial-gradient(circle, #a8c7ff 0%, #dbeaff 100%);
+}
+
+nav{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    padding: auto   ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+.Logo{
+    width: 400px;
+    height: 100px;
+    
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+
+
+
+.Menu{
+    width: 500px;
+    height: 50%;
+    
+    align-items: center;    
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+    margin-right: 20px;
+}
+
+.Menu>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.Menu>ul>a{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5%;
+    color: GREY;
+}
+
+.Menu>ul>a:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateY(-5px);
+
+}
+
+.Identification{
+   
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 3%;
+   
+    
+    
+}
+
+.Identification>h1{
+    
+    font-size: 61.98px;
+    line-height: 74.376px;
+    font-weight: Regular (400);
+    letter-spacing: normal;
+}
+
+.Identification>p{
+    
+    font-size: 40px;
+    line-height: 93.376px;
+    font-weight: Regular (400);
+    letter-spacing: normal;
+
+}
+
+.AboutSection{
+
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    
+    border:1px solid grey;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    margin: auto;
+    padding: auto;
+   
+
+
+}
+
+.Image{
+    width: 30%;
+    height: 480px;
+    border: 1px solid white;
+    background-image: url(Images/haykel.jpeg);
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+
+.Biography{
+    width: 50%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    padding-top: 70px;
+
+}
+
+
+.WORK{
+
+
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+    border:1px solid grey;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    padding-top: 80px;
+    gap:15px
+
+}
+
+
+.RESUME{
+
+
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+   
+    justify-content: space-around;
+    
+    
+    
+    border:1px solid grey;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    margin:auto;
+    padding: auto;
+    margin-top: 50px;
+    padding-top: 80px;
+    gap:15px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
